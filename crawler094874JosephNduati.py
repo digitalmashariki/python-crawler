@@ -1,6 +1,5 @@
-
 # print(sys.version_info)
-#Runs with python 2.7 and  python 3.6 as default. I will uncomment and comment as necessary
+#Runs with python 2.7 as default, incase of python 3.6 I will uncomment and comment as necessary
 
 #Python 2.7
 #import urllib
@@ -10,14 +9,12 @@
 #if Python 3.6
 from urllib.request import urlopen 
 
-
-
 #if using python 2.7
 #theURLObject = urllib.urlopen('https://www.strathmore.edu/')
 
 #OR
 
-#I using python 3.6
+#If using python 3.6
 theURLObject = urlopen('https://www.strathmore.edu/')
 
 theHTML = theURLObject.read()
@@ -26,6 +23,10 @@ theHTML = theURLObject.read()
 #Python 3.6
 #Convert the byte object to string
 theHTMLAsString = theHTML.decode(("utf-8"))
+
+#print(type(theHTML.decode("utf-8")))
+
+
 
 myCounter = 0
 while myCounter < len(theHTMLAsString):
@@ -38,5 +39,3 @@ while myCounter < len(theHTMLAsString):
 		print("")
 
 	myCounter += 30
-
-
