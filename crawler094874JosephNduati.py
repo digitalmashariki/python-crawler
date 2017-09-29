@@ -1,5 +1,5 @@
 # print(sys.version_info)
-#Runs with python 2.7 as default, incase of python 3.6 I will uncomment and comment as necessary
+#Runs with python 2.7 and 3.6 as deafult.  I will uncomment and comment as necessary
 
 #Python 2.7
 #import urllib
