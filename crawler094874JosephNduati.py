@@ -20,7 +20,7 @@ theURLObject = urllib.urlopen('https://www.strathmore.edu/')
 #I using python 3.6
 #theURLObject = urlopen('https://www.strathmore.edu/')
 
-theHTMLAsString = theURLObject.read()
+theHTML = theURLObject.read()
 
 
 #Python 3.6
