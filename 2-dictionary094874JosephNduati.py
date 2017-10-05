@@ -1,6 +1,6 @@
 
-# Manual Standard deviation Temperature Calculation for 12 Months with each month 
-#having 30 days a month by use of dictionaries and loops
+#Manually done Standard deviation Temperature Calculation for 12 Months with each month 
+#having 30 days a month by use of dictionaries, lists and loops
 
 import matplotlib.pyplot as plt
 import random
